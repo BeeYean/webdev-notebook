@@ -108,7 +108,7 @@ article
    width: 30rem;
 }
 */
-
+/*
 article {
   background-color: cornsilk;
   border: 1px solid white;
@@ -117,17 +117,20 @@ article {
   margin: 2rem 4%;
   padding: 1rem 2rem 2rem 2rem;
   box-shadow: 5px 5px 25px #222;
-}
+}*/
 .card {
     background: cornsilk;
     box-shadow: 5px 5px 25px #222;
+/*
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 4%;
-    margin-right: 4%;
-    padding: 1rem;
+
+    margin-left: 5%;
+    margin-right: 5%;*/
+    margin:1rem;
+    padding: 1rem 2rem 2rem 2rem;
     width: 20rem;
-}
+    }
 .cardDescription {
     color: #A2834E;
     font-family: 'Lato', sans-serif;
@@ -161,11 +164,11 @@ nav a{
 
 .flexContainer{
   display:flex;
-/*  flex-flow: row wrap;*/
+  flex-flow: row wrap;
   justify-content: center;
   font-size:14px;
   align-items: stretch;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 
 
 }
@@ -280,12 +283,15 @@ header ul {
 
 /*
 .pageposition{
-  position: fixed;
-  top: 80px;
-  left: 10px
-}
-*/
+  background:;
+}*/
 
+.h_list_pos{
+  position: absolute;
+  top:0;
+  right:0;
+  margin: 0, 0, 0, 0;
+}
 
 
 
